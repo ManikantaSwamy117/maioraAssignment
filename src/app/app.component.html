@@ -9,7 +9,6 @@
         [ngClass]="sidebar || loaderService.showSpinner? 'background-blur':''"></app-header>
     <div class="row" [ngClass]="sidebar || loaderService.showSpinner? 'background-blur':''">
         <div class="col-lg-12" [ngClass]="loaderService.deviceOs=='iOS'? 'iosbody':'androidbody'">
-            <!-- <pre>{{loaderService.deviceInfo|json}}</pre> -->
             <router-outlet></router-outlet>
         </div>
     </div>
