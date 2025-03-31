@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "85726660568",
+    "project_id": "ordermo-d66c5",
+    "storage_bucket": "ordermo-d66c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85726660568:android:4e4f51499f30c21bf914ad",
+        "android_client_info": {
+          "package_name": "com.Amaze.Ordermo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3RUaIe4SpJYt0_ruOxGaH81ksbmP7jOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

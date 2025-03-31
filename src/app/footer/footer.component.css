@@ -1,0 +1,24 @@
+.iosbg {
+    height: 7vh;
+    background-color: yellow;
+    padding-bottom: 1vh;
+}
+
+.androidbg {
+    height: 7vh;
+    background-color: yellow;
+}
+
+.icons {
+    height: 3.5vh;
+}
+
+.lay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

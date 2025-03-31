@@ -1,0 +1,15 @@
+
+<div class="row" [ngClass]="loaderService.deviceOs=='iOS'? 'iosbg':'androidbg'">
+    <div class="col-lg-12 lay">
+        <img src="../../assets/Maiora/home (1).png" class="icons" *ngIf="loaderService.currentPage!='BurgerQueen'"
+        (click)="navigate('Dashboard','Burger Queen')">
+        <div *ngIf="loaderService.currentPage=='BurgerQueen'" class="activepage">
+            <img src="assets/images/Home.svg" class="icons">
+            &nbsp;
+           
+        </div>
+        <img src="../../assets/Maiora/user.png" class="icons" >
+        <img src="../../assets/Maiora/paper-plane.png" class="icons" >
+        <img src="../../assets/Maiora/briefcase.png" class="icons" >
+    </div>
+</div>

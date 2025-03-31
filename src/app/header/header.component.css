@@ -1,0 +1,52 @@
+.iosbg {
+    height: 12vh;
+    background-color: #FFFF00;
+}
+
+.androidbg {
+    height: 6vh;
+    background-color: #FFFF00;
+    padding: 1% 5% 0% 5%;
+}
+
+.icons {
+    width: 1.5rem;
+}
+
+.ioslay {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.androidlay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cp {
+    color: black;
+    margin-bottom: 0px;
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.txt {
+    background-color: red;
+    font-size: xx-small;
+    position: absolute;
+    padding: 5px;
+    top: -7px;
+    left: 15px;
+    border-radius: 25px;
+    color: black;
+}

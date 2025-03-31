@@ -1,0 +1,30 @@
+.androidmob-menu {
+    height: 100vh;
+    width: 75%;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+}
+
+.iosmob-menu {
+    height: 94vh;
+    margin-top: 6vh;
+    width: 75%;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+}
+
+.iosbody {
+    height: 80vh;
+    overflow-y: auto;
+    background: #ffffff;
+}
+
+.androidbody {
+    height: 87vh;
+    overflow-y: auto;
+    background: #ffffff;
+}

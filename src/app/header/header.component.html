@@ -1,0 +1,12 @@
+<div class="row" [ngClass]="loaderService.deviceOs=='iOS'? 'iosbg':'androidbg'">
+    <div class="col-lg-12 " [ngClass]="loaderService.deviceOs=='iOS'? 'ioslay':'androidlay'">
+        <img src="../../assets/Maiora/sidebaricon.png" class="icons" (click)="toggle()">
+        <h6 class="cp"><b>{{loaderService.currentPage}}</b></h6>
+        <div>
+            <div class="icon">
+                <img src="../../assets/Maiora/bell-icon-notification-symbol-vector-260nw-1117275968.webp" class="icons">
+                
+            </div>
+        </div>
+    </div>
+</div>
