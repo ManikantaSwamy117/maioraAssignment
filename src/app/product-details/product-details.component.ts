@@ -21,14 +21,14 @@ export class ProductDetailsComponent {
     },
     {
       id: 2,
-      name: 'Veg Pizza',
+      name: 'Veg Burger',
       price: 499.00,
       quantity: 1,
       img: 'assets/Maiora/istockphoto-520410807-612x612.jpg'
     },
     {
       id: 3,
-      name: 'French Fries',
+      name: 'French Burger',
       price: 199.00,
       quantity: 1,
       img: 'assets/Maiora/istockphoto-520410807-612x612.jpg'
