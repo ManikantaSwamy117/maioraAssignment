@@ -58,7 +58,7 @@ export class ProductDetailsComponent {
   decreaseQuantity(product: any) {
     debugger;
     const cartItem = this.cart.find(item => item.id === product.id);
-    if (cartItem && cartItem.quantity > 1) {
+    if (cartItem && cartItem.quantity >= 1) {
       cartItem.quantity--;
       this.calculateTotals();
     }
